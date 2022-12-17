@@ -1,0 +1,160 @@
+@media(min-width: 769px){
+    .contenedor{
+        width: 80%;
+        margin: auto;
+        margin-top: 1em;
+    }
+    
+
+}
+
+.contenedor2{
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.contenedordepreguntas{
+    margin-top: 2em;
+}
+.title-question{
+    margin-bottom: 2em;
+}
+
+
+.nav{
+    box-shadow:  1px 2px 1px #007bff;
+    ;
+}
+.card-text{
+    text-align: left;
+}
+
+@media(max-width: 768px){
+    .card{
+        margin-top: 1em;
+    }
+    .nav li{
+        width: 25%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav li a{
+        font-size: 13px;
+    }
+}
+
+/*FOOTER*/
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: #007bff;
+  padding-top: 1em;
+}
+
+/*NUESTRA MISION*/
+
+.contenedor-3{
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.card-description{
+    flex-basis: 75%;
+}
+.color-blue{
+    color: #007bff;
+}
+
+/*CONTACTANOS*/
+
+.contenedor-form{
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.form-contact{
+    width: 75%;
+
+}
+
+.title-container{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+   
+}
+.form-contact *{
+    width: 100%;
+}
+
+.container-wpp{
+    padding: 2em;
+    margin-bottom: 1em;
+    flex-direction: column;
+    
+}
+.container-wpp img{
+    width: 70%;
+}
+
+.img-of-wpp{
+    transition: all 0.2s ease-in-out;
+}
+
+.img-of-wpp:hover{
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+    }
+    @keyframes swing {
+    15% {
+    transform: translateX(5px);
+    }
+    30% {
+    transform: translateX(-5px);
+    }
+    50% {
+    transform: translateX(3px);
+    }
+    65% {
+    transform: translateX(-3px);
+    }
+    80% {
+    transform: translateX(2px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
